@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="jumbotron">
+      <div class="container">
+        	{{ content }}
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">{{ page.button_text }} &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container">
+      {% include home-widgets.html %}
+      {% include footer.html %}
+    </div>
+
+  </body>
+</html>
