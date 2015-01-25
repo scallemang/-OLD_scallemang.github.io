@@ -3,14 +3,14 @@ layout: default
 ---
 <div class="row row-buffer post-title">
   <div class="col-md-4">
-    <ol class="breadcrumb">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Library</a></li>
-      <li class="active">Data</li>
-    </ol>
+    {% include breadcrumbs.html %}
   </div>
   <div class="col-md-8">
+    {% if page.image %}
     <img src="/img/reduced-size/{{ page.image }}" alt="" class="img-responsive">
+    {% else %}
+    <h2>THIS POST DOES NOT HAVE A FEATURED IMAGE!!</h2>
+    {% endif %}
   </div>
 </div>
 
@@ -33,9 +33,15 @@ layout: default
   <div class="col-md-8 main-content">
     <div class="row">
       <div class="col-md-12">
+        {% if page.columns %}
+        <div class="columns">
+        {% endif %}
       	<article>
       			{{ content }}
       	</article>
+        {% if page.columns %}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>

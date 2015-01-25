@@ -1,2 +1,2 @@
-# scallemang_ca_jekyll
+# SC Allemang.ca
 Personal site built with Jekyll
