@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-01-11 17:42:44
