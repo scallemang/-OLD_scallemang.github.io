@@ -15,7 +15,7 @@
             {% for node in site.pages %}
             {% if node.title != nil and node.url != '/'  %}
             
-            {% unless node.url contains '/tags' %}          
+            {% unless node.url contains '/tags' or node.exclude %}          
             {% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
             <li {% if nodediff != page.url %}class="active" {% endif %}><a href="{{ node.url }}">{{ node.title }}</a></li>
             {% endunless %}
