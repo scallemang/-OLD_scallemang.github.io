@@ -36,8 +36,7 @@
 
 .btn-primary {
 	background-image: none;
-	/*background-color: #ef5e50;*/
-	background-color: #E53935;
+	background-color: #ef5e50;
 	color: #fff;
 	border-color: #f00000;
 }
@@ -50,12 +49,12 @@
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-	background-color: #D32F2F;
-	border-color: #B71C1C;
+	background-color: #E53935;
+	border-color: #f00000;
 }
 
 .jumbotron {
-	background: linear-gradient(219deg, #b71c1c, #880e4f, #1a237e, #004d40, #1b5e20, #f57f17);
+	background: #f5f5f5;
 }
 
 a {
@@ -114,6 +113,7 @@ a:hover, a:focus, a:visited {
 }
 
 .gradient-bg {
+	background: linear-gradient(219deg, #b71c1c, #880e4f, #1a237e, #004d40, #1b5e20, #f57f17);
 	background-size: 1200% 1200%;
 	-webkit-animation: JumbotronGradient 30s ease infinite;
 	-moz-animation: JumbotronGradient 30s ease infinite;
