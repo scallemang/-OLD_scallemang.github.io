@@ -27,4 +27,4 @@ I am self taught as a web designer, with thanks to Prof. J.S. Burgess at UofT wh
 		wantsToTravelMore:true
 	};
 
-### [Curriculum Vitae](ca.linkedin.com/in/scallemang)
+### [Curriculum Vitae](http://ca.linkedin.com/in/scallemang)
