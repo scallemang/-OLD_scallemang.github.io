@@ -90,9 +90,18 @@ a:hover, a:focus, a:visited {
 	padding: 0;
 }
 
-.main-content p {
+.main-content p,
+.main-content ul,
+.main-content ol,
+.main-content dl {
 	text-align: justify;
 	font-family: Georgia, serif;
+}
+
+.main-content blockquote p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
 }
 
 .post-title>h2, .blog-feed h3 {
