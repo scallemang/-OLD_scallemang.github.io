@@ -100,8 +100,8 @@ a:hover, a:focus, a:visited {
 
 .main-content blockquote p {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 100;
-	letter-spacing: 1px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
 }
 
 .post-title>h2, .blog-feed h3 {
