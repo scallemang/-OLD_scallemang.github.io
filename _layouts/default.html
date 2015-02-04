@@ -3,7 +3,7 @@
   {% include head.html %}
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
-    {% if page.layout == "home" %}<div class="container">{% endif %}
+    {% if page.class != "home" %}<div class="container">{% endif %}
       {{ content }}
-      {% if page.layout == "home" %}{% include footer.html %}{% endif %}
+      {% if page.class != "home" %}{% include footer.html %}{% endif %}
     
