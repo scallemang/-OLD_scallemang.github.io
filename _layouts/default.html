@@ -3,14 +3,7 @@
   {% include head.html %}
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
-    <div class="container">
+    {% if page.layout == "home" %}<div class="container">{% endif %}
       {{ content }}
-      {% include footer.html %}
-    </div> <!-- /container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-  </body>
-</html>
+      {% if page.layout == "home" %}{% include footer.html %}{% endif %}
+    

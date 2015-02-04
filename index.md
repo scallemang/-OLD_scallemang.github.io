@@ -2,6 +2,7 @@
 layout: home
 title: SC Allemang
 button_text: About Me
+class: home
 ---
 
 # Hello, World!
