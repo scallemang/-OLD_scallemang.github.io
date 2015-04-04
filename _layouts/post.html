@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="row row-buffer post-title">
   <div class="col-md-4">
-    {% include breadcrumbs.html %}
+    <!--{% include breadcrumbs.html %}-->
   </div>
   <div class="col-md-8">
     {% if page.image %}
@@ -20,16 +20,16 @@ layout: default
     <h3>Categories</h3>
     <ul class="list-inline">
       {% for category in page.categories %}
-        <li><a href="/blog/tags/{{category | first}}/"><small>{{ category }}</small></a></li>
+        <li><a href="/blog/categories/{{category}}/"><small>{{ category }}</small></a></li>
       {% endfor %}
     </ul>
     <h3>Tags</h3>
     <ul class="list-inline">
       {% for tag in page.tags %}
-        <li><a href="/blog/tags/{{tag | first}}/"><small>{{ tag }}</small></a></li>
+        <li><a href="/blog/tags/{{tag}}/"><small>{{ tag }}</small></a></li>
       {% endfor %}
     </ul>
-    </div>
+  </div>
   <div class="col-md-8 main-content">
     <div class="row">
       <div class="col-md-12">
