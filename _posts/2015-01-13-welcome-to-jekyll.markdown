@@ -2,8 +2,8 @@
 layout: post
 title:  "Third Post"
 date:   2015-01-13 17:42:44
-categories: acid
-tags: nelligan
+categories: example
+tags: [example]
 columns: true
 ---
 

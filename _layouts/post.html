@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="row row-buffer post-title">
   <div class="col-md-4">
     <!--{% include breadcrumbs.html %}-->
@@ -29,6 +30,7 @@ layout: default
         <li><a href="/blog/tags/{{tag}}/"><small>{{ tag }}</small></a></li>
       {% endfor %}
     </ul>
+    <p id="post-meta">{{ tags_content }}</p>
   </div>
   <div class="col-md-8 main-content">
     <div class="row">

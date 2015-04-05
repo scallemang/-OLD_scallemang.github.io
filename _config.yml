@@ -11,10 +11,3 @@ github_username:  scallemang
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Tag/category page creation from ryancmorrissey.com
-blog:
-    tags:
-        url: /blog/tags/
-        title_prefix: "blog - tag: "
-        layout: tag.html
