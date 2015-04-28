@@ -2,6 +2,7 @@
 layout: home
 title: SC Allemang
 button_text: About Me
+button_link: /about
 class: home
 ---
 
