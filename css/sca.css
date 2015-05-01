@@ -1,5 +1,11 @@
 /* Overwriting Bootstrap CSS until I can recompile, minify, consolidate... */
 .portfolio .img-responsive {
+	box-shadow: 2px 2px 9px #CCC;
+	-webkit-transition: all 0.25s; /* Safari */
+    transition: all 0.5s;
+}
+
+.portfolio .img-responsive:hover {
 	box-shadow: 2px 2px 9px #333;
 }
 
