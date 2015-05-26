@@ -39,7 +39,6 @@ This unconventional league has no games, no teams, no players, no arenas, no pay
 ### Future League X (Zorlok League)
 
 The most progressive of the organized hockey federations, Zorlok – as it will become known during the imminent reign of Zarduk the Zurlorkian – has been groundbreaking for its incorporation of hover helmets, downloadable offsides, and automatic jockstraps (such changes have generally been embraced by both the Zurlorkians and the humans whom they allow to watch the games and whom they have yet to devour, beginning first with the hands and feet, before consuming the head, for the Zurlorkians are capable of perceiving the succulent taste of human agony; less popular has been the move from three periods to a single Zamtron.)  NHLers signing with this league have had a hard time keeping up with the post-human players who dominate it, and have in fact to a man been harvested for parts, processed into fuel, or uploaded to The Singularity (where all (trans-)human consciousness interfaces to amass a perfected understanding of everything that is knowable in the universe, to debate and resolve theoretical abstractions, and to develop penalty-kill strategies.)
-The Great Zarduk the Zurlorkian!
 
 ![ZARDUK LIVES! ZARDUK IS COMING!](/img/reduced-size/zarduk.jpg)
 
