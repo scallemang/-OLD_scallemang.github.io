@@ -59,6 +59,9 @@ a:hover.btn-primary {
 	color: white;
 }
 
+img {
+	max-width: 100%;
+}
 
 .btn-primary, .btn-default, .navbar-nav li a, a {
 	-webkit-transition: all 0.25s ease;
@@ -115,6 +118,10 @@ a:hover.btn-default {
 	background-color: inherit;
 	background-color: transparent;
 	padding: 0;
+}
+
+.glyphicon {
+	margin-right: 7px;
 }
 
 .main-content p,
