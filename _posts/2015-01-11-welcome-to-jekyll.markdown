@@ -12,7 +12,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 
 <div class="row">
 	<div class="col-md-6">
-		<p>D’abord j’ai contemplé dans le berceau de chêne<br>
+		<p><em>D’abord j’ai contemplé dans le berceau de chêne<br>
 		Un bébé tapageur qui ne pouvait dormir;<br>
 		Puis vint la grande fille aux yeux couleur d’ébène,<br>
 		Une brune enfant pâle insensible au plaisir.<br><br>
@@ -28,7 +28,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 
 		J’élève mon regard vers la voûte azurée<br>
 		Où nagent les astres dans la nuit éthérée,<br>
-		Plus pure te trouvant que leurs plus purs rayons.</p>
+		Plus pure te trouvant que leurs plus purs rayons.</em></p>
 	</div>
 	<div class="col-md-6">
 		<p>At first, I pondered in the cradle of oak<br>
@@ -57,7 +57,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 
 <div class="row">
 	<div class="col-md-6">
-		<p>Plein de spleen nostalgique et de rêves étranges,<br>
+		<p><em>Plein de spleen nostalgique et de rêves étranges,<br>
 		Un soir je m’en allai chez la Sainte adorée,<br>
 		Où se donnait, dans la salle de l’Empyrée,<br>
 		Pour la fête du Ciel, le récital des anges.<br><br>
@@ -72,7 +72,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 		Et, ma demande étant Cécile agréée,<br>
 		Je l’écoutai jouer aux divines phalanges,<br><br>
 
-		Plein de spleen nostalgique et de rêves étranges!</p>
+		Plein de spleen nostalgique et de rêves étranges!</em></p>
 	</div>
 	<div class="col-md-6">
 		<p>Full of nostalgic melancholy and strange dreams,<br>
@@ -100,7 +100,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 
 <div class="row">
 	<div class="col-md-6">
-		<p>L’aube éclabousse les monts de sang<br>
+		<p><em>L’aube éclabousse les monts de sang<br>
 		Tout drapés de fine brume,<br><br>
 
 		Et l’on entend meugler frémissant<br>
@@ -122,7 +122,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 		Le sol teint rouge hideux.<br><br>
 
 		Et Phébus chante aux beuglements mornes<br>
-		Du boeuf qu’on rupture à deux.</p>
+		Du boeuf qu’on rupture à deux.</em></p>
 	</div>
 	<div class="col-md-6">
 		<p>The dawn splashes the mountains of blood<br>
@@ -157,7 +157,7 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 
 <div class="row">
 	<div class="col-md-6">
-		<p>Comme la lande est riche aux heures empourprées,<br>
+		<p><em>Comme la lande est riche aux heures empourprées,<br>
 		Quand les cadrans du ciel ont sonné les vesprées !<br><br>
 
 		Quels longs effeuillements d’angélus par les chênes !<br>
@@ -175,8 +175,8 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 		Quelle mélancolie ! Octobre, octobre en voie !<br>
 		Watteau ! que je vous aime, Autran, ô Millevoye !</p>
 			</div>
-			<div class="col-md-6">
-				<p>As the moor is rich in the crimson hours,<br>
+	<div class="col-md-6">
+		<p>As the moor is rich in the crimson hours,<br>
 		When the dials of the heavens have chimed the vespers!<br><br>
 
 		What long strippings of Angelus by the oaks!<br>
