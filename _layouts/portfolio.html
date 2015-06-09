@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
-<div class="portfolio">
-	<h1 class="post-title">{{ page.title }}</h1>
-	{{ content }}
-		{% include portfolio-web.html %}
-		<hr>
-		{% include portfolio-design.html %}
-		<hr>
-		{% include portfolio-illustration.html %}
-		<hr>
-		{% include portfolio-photography.html %}
-</div>
+
+  <h1 class="page-heading">{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+  <p><em>N.B. Several of the websites are not maintained by myself and I cannot take credit for updates made. However, I was sole developer on all the sites&rsquo; initial versions except for Synbiota, for which I was co-developer with <a href="http://www.meagh.com">Meagh Bent</a>, and SustainableJoes.com and Jennifer Bolus.com, for which I was a co-designer within <a href="http://cloudsurfingmedia.com">Cloud Surfing Media</a>.</em></p>
+
+  <div class="row">
+    <div class="col-md-12 post-title">
+      <!-- {% include widget-categories-tags.html %} -->
+      <div class="row masonry-container">
+        {% for image in page.images %}
+          <div class="col-sm-6 col-md-4 col-lg-4 item">
+            <div class="thumbnail">
+              <!-- <a href="{{ post.url | prepend: site.baseurl }}"> --><a href="{{ image | last }}" target="_blank"><img src="/img/reduced-size/{{ image | first }}" alt="" class="img-responsive"></a>
+            </div>
+          </div>{% endfor %}
+      </div>
+    </div>
+  </div>
+  <p>Much love to Maria Antoinetta Perna for her Sitepoint post on <a href="http://www.sitepoint.com/bootstrap-tabs-play-nice-with-masonry/">setting up Masonry in Bootstrap</a>.</p>
