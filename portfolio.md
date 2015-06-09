@@ -42,6 +42,8 @@ images:
   - ["portfolio-design/st-vincent-01.jpg", ""]
   - ["portfolio-design/st-vincent-02.jpg", ""]
   - ["portfolio-design/leaders-readers.gif", ""]
+  - ["portfolio-design/esbgc-basketball.jpg", ""]
+  - ["portfolio-design/esbgc-soccer.jpg", ""]
   - ["portfolio-design/esbgc-baseball.jpg", ""]
   - ["portfolio-design/augustus.jpg", ""]
   - ["portfolio-design/toulouse.jpg", ""]
