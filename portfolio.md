@@ -30,6 +30,7 @@ images:
   - ["portfolio-design/lunchmeat-dregs-friends.jpg", ""]
   - ["portfolio-design/lunchmeat-child.jpg", ""]
   - ["portfolio-design/l_entente.gif", ""]
+  - ["portfolio-design/rhineland-desk.png", ""]
   - ["portfolio-design/rhineland-logo.png", ""]
   - ["portfolio-design/scholia-logo.gif", ""]
   - ["portfolio-design/monogram-sa.jpg", ""]
