@@ -75,3 +75,5 @@ images:
 ---
 
 *N.B. Several of the websites are not maintained by myself and I cannot take credit for updates made. However, I was sole developer on all the sites&rsquo; initial versions except for Synbiota, for which I was co-developer with [Meagh Bent](http://www.meagh.com), and SustainableJoes.com and Jennifer Bolus.com, for which I was a co-designer within [Cloud Surfing Media](http://cloudsurfingmedia.com).*
+
+Here is a copy of [my résumé](https://www.dropbox.com/s/kxblk4piftspghl/resume_samuel_allemang_spring_2015.pdf).
