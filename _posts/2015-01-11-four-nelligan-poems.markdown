@@ -173,8 +173,8 @@ summary: A few translations of poems by the Québecquois symbolist poet, Émile 
 		Des Sylphes ont cueilli le parfum mort des cloches.<br><br>
 
 		Quelle mélancolie ! Octobre, octobre en voie !<br>
-		Watteau ! que je vous aime, Autran, ô Millevoye !</p>
-			</div>
+		Watteau ! que je vous aime, Autran, ô Millevoye !</em></p>
+	</div>
 	<div class="col-md-6">
 		<p>As the moor is rich in the crimson hours,<br>
 		When the dials of the heavens have chimed the vespers!<br><br>
