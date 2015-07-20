@@ -12,5 +12,6 @@
     <script src="/js/masonry.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/site.js"></script>
+    {% if page.script %}<script src="/js/{{ page.script }}"></script>{% endif %}
   </body>
 </html>

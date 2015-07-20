@@ -5,6 +5,7 @@ permalink: /waves/
 columns: true
 exclude: true
 class: gradient-bg
+script: gradient.js
 ---
 
 ## Groove Along With the Groovy Gradient
