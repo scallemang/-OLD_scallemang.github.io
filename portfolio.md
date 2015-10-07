@@ -4,7 +4,8 @@ title: Portfolio
 subtitle: Web, Design, Illustration &amp; Photography
 permalink: /portfolio/
 images:
-  - ["portfolio-web/synbiota-01.jpg", "http://www.synbiota.com"]
+  - ["portfolio-web/healthyuturn.jpg", "http://www.nutritionistoakville.com"]
+  - ["portfolio-web/nuvision.jpg", "http://www.nuvisionexcel.com.com"]
   - ["portfolio-web/esbgc-org.jpg", "http://www.esbgc.org"]
   - ["portfolio-web/sca-ca-01.jpg", "http://scallemang.ca"]
   - ["portfolio-web/techsdale-ca.jpg", "http://www.techsdale.ca"]
