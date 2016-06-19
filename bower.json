@@ -1,0 +1,19 @@
+{
+  "name": "scallemang_ca",
+  "version": "1.0.0",
+  "authors": [
+    "SC Allemang <samuel.allemang@gmail.com>"
+  ],
+  "homepage": "http://scallemang.ca",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "normalize.scss": "~3.0.2"
+  }
+}
