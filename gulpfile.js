@@ -5,6 +5,7 @@ var notify = require("gulp-notify") 
 var sass = require('gulp-ruby-sass') ;
 var bower = require('gulp-bower');
 var browserSync  = require('browser-sync');
+var imagemin     = require('gulp-imagemin');
 
 var config = {
      sassPath: './_sass',
@@ -30,6 +31,17 @@ gulp.task('jekyll-build', ['css','icons','bower'], function (done) {
 
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
+});
+
+// minifiy images
+gulp.task('images', function () {
+    return gulp.src('images/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('images'));
 });
 
 gulp.task('icons', function() { 
@@ -64,7 +76,7 @@ gulp.task('serve', ['build'], function() {
 
     // Start a watch for rebuilds
     gulp.watch(['_sass/*.scss'], ['css'])
-    gulp.watch(['index.html', '_layouts/*.html', '_includes/*', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '_layouts/*.html', '_includes/*', '_posts/*', 'images/*'], ['jekyll-rebuild']);
 });
 
 
